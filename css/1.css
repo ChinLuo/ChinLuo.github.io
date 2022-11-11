@@ -1,0 +1,14 @@
+video {
+    max-width: 75%;
+}
+
+#main {
+    text-align: center;
+}
+
+#main marquee {
+    font-size: large;
+
+    width: 75%;
+    height: auto;
+}

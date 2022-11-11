@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header #person {
+
+    float: right;
+    width: 200px;
+    height: 75px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header #person button {
+    border-radius: 3px;
+
+    float: right;
+    width: 50px;
+    height: 30px;
+    margin: 2px;
+
+    padding: 1px 7px 2px 7px;
+    border: none;
+    background-color:rgb(136,210,48) ;
+    color: white;
+    font-size: 17px;
+}
+
+header {
+    height: 75px;
+    background-image: url("../images/loginbar.jpg");
+}
+
+#top {
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container a {
+    display: inline-block;
+
+    width: 240px;
+    height: 40px;
+
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+#foot{
+    width: 100%;
+    height: 198px;
+    position:absolute;
+    background-image: url(../images/foot.png);
+}
+#foot p{
+    font-size: medium;
+    color: dodgerblue;
+    text-align: center;
+}
+
+#foot img {
+    position: relative;
+
+    width: 100px;
+    height: 100px;
+
+    top: 49px;
+    left: 100px;
+}
